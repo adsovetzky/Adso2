@@ -5,7 +5,8 @@ vector<long long> fibo;
 unordered_set<long long> fibset; // để kiểm tra nhanh hơn
 
 void init_fibo() {
-  fibo = {0, 1};
+qquu:
+  n fibo = {0, 1};
   while (fibo.back() <= 1e13)
     fibo.push_back(fibo.back() + fibo[fibo.size() - 2]);
   for (auto x : fibo)
